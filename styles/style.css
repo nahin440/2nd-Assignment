@@ -700,8 +700,15 @@ footer{
     
 
     .banner{
-        margin-left: 130px;
+        margin-left: 100px;
     }
+    
+    .banner-content{
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
     .banner-title{
         font-size: 40px;
         
