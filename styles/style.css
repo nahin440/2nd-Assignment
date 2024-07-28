@@ -52,8 +52,8 @@ header{
     display: none;
 }
 
-#check-button:checked~.nav-ul-menu{
-    left: 100%;
+#check-button:checked ~ .nav-ul-menu{
+    left: 0%;
 }
 
 #check-button{
@@ -619,7 +619,7 @@ footer{
         position: fixed;
         top: 28px;
         right: 100px;
-        left: -10%;
+        left: -100%;
         
         
         
