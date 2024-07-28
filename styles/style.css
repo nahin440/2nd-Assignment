@@ -20,22 +20,50 @@ header{
 }
 
 .nav-title{
+    
     color:rgb(230, 83, 60) ;
 }
 
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .nav-ul-menu{
     display: grid;
     grid-template-columns: repeat(4,4fr);
     gap: 20px;
-    list-style: none;
     
+    
+}
+.nav-li-menu{
+    list-style: none;
+
 }
 
 .nav-a-menu{
     text-decoration: none;
     color: white;
 }
+
+
+#check{
+    display: none;
+}
+
+#check-button:checked~.nav-ul-menu{
+    left: 100%;
+}
+
+#check-button{
+    display: none ;
+    font-size: 20px;
+    float: left;
+    margin-left: 10%;
+}
+
+
 
 
 
@@ -410,7 +438,7 @@ th{
 
 
 .before-team{
-    margin: 30px 0px;
+    margin: 30px 15%;
     text-align: center;
 }
 
@@ -537,4 +565,148 @@ footer{
     font-size: 18px;
     font-weight: 500;
     padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 576px){
+
+    #check-button{
+        display: block;
+        margin-right: 15%;
+    }
+
+    .nav-ul-menu{
+        margin-top: 0px;
+        border-radius: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 30px 60px;
+
+        position: fixed;
+        top: 28px;
+        right: 100px;
+        left: -10%;
+        
+        
+        
+    
+    }
+    .nav-li-menu{
+        display: non;
+    }
+
+
+
+
+    .nav-menu{
+        align-items:initial;
+        
+        margin-top: 3px;
+    }
+
+    
+    
+
+    
+    .bmi,
+    .run,
+    .habit-box,
+    .banner{
+        flex-direction: column;
+    }
+    
+
+    .banner-btn1{
+        margin-bottom: 20px;
+    }
+    
+
+    #bannerbox1{
+        margin-left: 55%;
+        margin-top: -86%;
+    }
+    #bannerbox2{
+        margin-left: 10%;
+        margin-top: 23%;
+        
+    }
+
+    .run{
+        gap: 50px;
+    }
+    .run-image{
+        width: 100%;
+    }
+    table{
+        margin-left: 0px;
+    }
+
+    .bmi{
+        margin: 0px 5%;
+    }
+    .bmi-chart{
+        margin-left: 5%;
+    } 
+    .calculator-input{
+        margin: 15px 10%;
+    }
+
+
+
+
+
+    .nav-ul-menu,
+    .footer,
+    .team{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .team{
+        margin: 10px 10%;
+    }
+
+    .team-image{
+        width: 90%;
+        height: auto;
+    }
+
+    .footer-div1{
+        margin-left: 18%;
+    }
+
+
 }
