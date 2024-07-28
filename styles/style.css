@@ -1,22 +1,63 @@
 
-header{
-    background:linear-gradient(rgb(0, 0, 0),
-    rgba(17, 17, 17, 0.732));
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding-bottom:96px;
-    
-    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.main-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
+
+
+
+
+
+{
+    margin: 0px;
+
+}
+
+
+
+
+.title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
 .margin{
     margin-left: 15%;
     margin-right: 15%;
 }
 
+
+
+
+
+
+header{
+    background:linear-gradient(rgb(0, 0, 0),
+    rgba(17, 17, 17, 0.732));
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-bottom:67px;
+    
+    
+}
+
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 40px ;
 }
 
 .nav-title{
@@ -39,7 +80,18 @@ header{
 }
 .nav-li-menu{
     list-style: none;
+    padding: 5px 10px;
 
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 18px;
+    background-color: rgb(230, 83, 60) ;
+    color: white;
 }
 
 .nav-a-menu{
@@ -79,6 +131,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+    margin-top: 80px;
 }
 
 .banner-content{
@@ -133,9 +186,28 @@ header{
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.1);
 
-    margin-left: 77%;
-    margin-top: -25%;
+    margin-left: 160px;
+    margin-top: -380px ;
 }
+
+#bannerbox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+    padding: 0px 5px;
+    width: 150px;
+    height: 85px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+
+    margin-left: -100px;
+    margin-top: 140px;
+}
+
 
 .banner-box-number1{
     margin-top: 0px;
@@ -154,23 +226,7 @@ header{
 
 
 
-#bannerbox2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0px;
-    padding: 0px 5px;
-    width: 150px;
-    height: 85px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(5px);
-    background: rgba(255, 255, 255, 0.1);
 
-    margin-left: 880px;
-    margin-top: 110px;
-}
 
 .banner-ball{
     width: 30px;
@@ -317,7 +373,7 @@ main{
 
 }
 .before-title{
-
+    
 }
 .before-desc{
 
@@ -340,6 +396,10 @@ main{
 
 .bmi-chart{
 
+}
+
+.chart-main-title,.calculator-input-title{
+    font-size: 29px;
 }
 .bmi-table{
     border: 2px solid gray;
@@ -464,7 +524,7 @@ th{
 
 .team-image{
     width: 280px;
-    height: 240px;
+    height: 260px;
     border-radius: 8px;
 }
 
@@ -527,9 +587,11 @@ footer{
 }
 
 .footer-title1{
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 60px;
+    color: rgb(230, 83, 60) ;
 }
 
 .footer-li{
@@ -604,29 +666,16 @@ footer{
 
 @media screen and (max-width : 576px){
 
+
     #check-button{
         display: block;
         margin-right: 15%;
     }
 
-    .nav-ul-menu{
-        margin-top: 0px;
-        border-radius: 8px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 30px 60px;
-
-        position: fixed;
-        top: 28px;
-        right: 100px;
-        left: -100%;
-        
-        
-        
+ 
     
-    }
     .nav-li-menu{
-        display: non;
+        display: none;
     }
 
 
@@ -650,18 +699,26 @@ footer{
     }
     
 
+    .banner{
+        margin-left: 130px;
+    }
+    .banner-title{
+        font-size: 40px;
+        
+    }
+
     .banner-btn1{
         margin-bottom: 20px;
     }
     
 
     #bannerbox1{
-        margin-left: 55%;
-        margin-top: -86%;
+        margin-left: ;
+        margin-top: ;
     }
     #bannerbox2{
-        margin-left: 10%;
-        margin-top: 23%;
+        margin-left: -60px;
+        margin-top: ;
         
     }
 
