@@ -699,6 +699,12 @@ footer{
 @media screen and (max-width : 576px){
 
 
+
+    *{
+        border: 2px solid red;
+    }
+
+
     #check-button{
         display: block;
         margin-right: 15%;
@@ -733,52 +739,100 @@ footer{
     
 
     .banner{
-        margin-left: 100px;
+        justify-content: center;
+        margin-top: 0px;
+        padding-top: 0px;
+        
     }
     
     .banner-content{
         margin-right: 0px;
-        margin-left: 0px;
+        
 
     }
 
     .banner-title{
+        margin-top: 10px;
+        padding-top: 0px;
         font-size: 40px;
         
     }
 
+
+    .banner-buttons{
+        gap: 50px;
+
+    }
+ 
     .banner-btn1{
-        margin: 0px;
-        justify-content: space-between
+        padding: 10px 30px;
+        width: 130%;
+
+    }
+
+    .banner-btn2{
+        padding: 10px 30px;
+        width: 100%;
+
     }
     
 
     #bannerbox1{
-        margin-left: ;
-        margin-top: ;
+        margin-left:55% ;
+        margin-top: -140% ;
     }
     #bannerbox2{
-        margin-left: -60px;
+        margin-left: -10%;
         margin-top: ;
         
     }
 
+
+    .banner-image{
+        width: 100%;
+    }
+
+    .banner-image-others{
+        width: 100%;
+    }
+
+
+
+
+
+
     .run{
         gap: 50px;
+    }
+
+    .run-content{
+        margin: 0px;
+        padding: 0px;
     }
     .run-image{
         width: 100%;
     }
     table{
-        margin-left: 0px;
+        padding-right: 0px;
     }
 
     .bmi{
-        margin: 0px 5%;
+        margin: 0px 0%;
     }
     .bmi-chart{
-        margin-left: 5%;
+        margin: 0px;
+        padding: 0px;
+        width: 70%;
     } 
+
+    .chart-title{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+
+
     .calculator-input{
         margin: 15px 10%;
     }
@@ -805,11 +859,15 @@ footer{
 
     .team{
         margin: 10px 10%;
+        padding: 0px;
     }
 
     .team-image{
         width: 90%;
         height: 200px;
+        margin: 20px 10px 20px 10px;
+        padding: 0px;
+
     }
 
     .footer-div1{
