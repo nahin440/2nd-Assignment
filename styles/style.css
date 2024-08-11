@@ -9,6 +9,9 @@
 
 
 
+*{
+    border: 2px solid red;
+}
 
 
 
@@ -69,7 +72,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px ;
+    padding-top: 0px ;
 }
 
 .nav-title{
@@ -143,7 +146,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .banner-content{
@@ -174,6 +177,9 @@ header{
     border: none;
     color: white;
 }
+
+
+
 .banner-btn2{
     margin: 0px 5px;
     padding: 10px 25px;
@@ -201,7 +207,7 @@ header{
 
 #bannerbox1{
     width: 140px;
-    height: 85px;
+    height: 100px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -236,6 +242,11 @@ header{
     margin-bottom: 0px;
     font-size: 25px;
     font-weight: 900;
+}
+
+.banner-box-desc1{
+    padding: 0px;
+    margin: 0px;
 }
 
 .banner-box-desc{
@@ -343,7 +354,8 @@ main{
 
 .run{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(57, 57, 57);
     border-radius: 8px;
     padding: 20px;
@@ -353,13 +365,22 @@ main{
 }
 
 .run-content{
+    width: 140%;
     margin-left: 20px;
-    margin-right: 30px;
+    margin-right: 0px;
+    padding-right: 40px;
 
 }
+
+
+
+
 .run-image{
-    width: 360px;
+    width: 140%;
+    height: fit-content;
     border-radius: 8px;
+    padding: 0px 200px 0px 0px;
+    
     
 }
 
@@ -391,10 +412,13 @@ main{
 
 .before-bmi-title{
     margin-left: 20%;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 8px;
 
 }
 .before-title{
+    text-align: left;
     
 }
 .before-desc{
@@ -406,18 +430,19 @@ main{
 
 .bg{
     background-color: rgb(57, 57, 57);
+    
 }
 .bmi{
     display: flex;
     justify-content: space-between;
     align-items:baseline;
 
-    padding: 30px 0px;
+    padding: 30px 0px 30px 0px;
     margin: 0px 15% ;
 }
 
 .bmi-chart{
-
+    margin-left: 10%;
 }
 
 .chart-main-title,.calculator-input-title{
@@ -564,7 +589,7 @@ th{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px #000000,
     2px 2px 2px #000000   ;
-    transform:translatey(-50px);
+    transform:translatey(-60px);
     margin: 0px;
 }
 
@@ -609,6 +634,9 @@ footer{
 
 .footer-div{
     margin: 20px 10%;
+}
+.footer-div1{
+    margin: 0px 10%;
 }
 
 
@@ -700,7 +728,6 @@ footer{
 
 
 
-
     #check-button{
         display: block;
         margin-right: 15%;
@@ -756,19 +783,28 @@ footer{
 
 
     .banner-buttons{
-        gap: 50px;
+        gap: 26px;
 
     }
  
+
+    .span-club{
+        display: none;
+    }
+
     .banner-btn1{
-        padding: 10px 30px;
-        width: 130%;
+        padding: 0px 30px;
+        width: 180%;
+        margin-left: -40px;
+        height: 45px;
 
     }
 
     .banner-btn2{
-        padding: 10px 30px;
-        width: 100%;
+        padding: 0px 30px;
+        width: 130%;
+        height: 47px;
+        margin-right: -20px;
 
     }
     
@@ -777,6 +813,9 @@ footer{
         margin-left:55% ;
         margin-top: -140% ;
     }
+
+    
+
     #bannerbox2{
         margin-left: -10%;
         margin-top: ;
@@ -802,11 +841,13 @@ footer{
     }
 
     .run-content{
+        width: 100%;
         margin: 0px;
         padding: 0px;
     }
     .run-image{
         width: 100%;
+        padding: 0px;
     }
     table{
         padding-right: 0px;
@@ -834,6 +875,7 @@ footer{
     }
 
 
+        
     .input-content2{
         width: 97%;
         height: 40px;
@@ -841,6 +883,33 @@ footer{
     .input-content1{
         width: 93%;
         height: 40px;
+    }
+
+
+    .team{
+        margin: 10px 10%;
+        
+        padding: 0px;
+    }
+
+    .team-image{
+        width: 90%;
+        height: 260px;
+        margin: 10px 10px 0px 10px;
+        padding: 0px;
+
+    }
+
+    .card-text{
+        
+        transform:translatey(-75px) translateX(10px);
+    }
+
+
+
+    
+    .footer-div1{
+        margin-left: 18%;
     }
 
 
@@ -853,22 +922,8 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
 
-    .team{
-        margin: 10px 10%;
-        padding: 0px;
-    }
+  
 
-    .team-image{
-        width: 90%;
-        height: 200px;
-        margin: 20px 10px 20px 10px;
-        padding: 0px;
-
-    }
-
-    .footer-div1{
-        margin-left: 18%;
-    }
 
 
 }
