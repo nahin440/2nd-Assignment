@@ -20,6 +20,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 
 .main-font {
   font-family: "Inter", sans-serif;
@@ -107,6 +109,7 @@ header{
     border-radius: 18px;
     background-color: rgb(230, 83, 60) ;
     color: white;
+    font-weight: bold;
 }
 
 .nav-a-menu{
@@ -156,9 +159,15 @@ header{
     font-size: 50px;
     font-weight: 700;
 }
+
 .span1{
-    font-family:'Aguafina Script', cursive;
+    font-family:'Miama'sans-serif;        
     color:rgb(255, 34, 0) ;
+}
+
+.banner-desc{
+    margin-bottom: 40px;
+    color: #989898;
 }
 
 
@@ -186,7 +195,7 @@ header{
     border-radius: 20px;
     background-color: rgb(0, 0, 0) ;
     backdrop-filter: blur(20px);
-    border: none;
+    border: 1px solid white;
     color: rgb(255, 255, 255);
 }
 
@@ -308,10 +317,15 @@ main{
 
 .habit-title-desc{
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+   
     margin-bottom: 100px;
 }
+
+
+.habit-desc{
+    color: #989898;
+}
+
 
 .habit-box{
     display: flex;
@@ -328,6 +342,17 @@ main{
     width: 200px;
     height: 170px;
     border-radius: 60%;
+}
+
+.habit-box-title{
+    font-size: 28px;
+    margin: 30px 0px 0px 0px;
+}
+
+.habit-box-desc{
+    font-size: 15px;
+    color: #989898;
+    
 }
 
 
@@ -372,6 +397,10 @@ main{
 
 }
 
+.run-desc{
+    color: #989898;
+    font-size: 16px;
+}
 
 
 
@@ -389,6 +418,118 @@ main{
     border-radius: 20px;
     background-color: rgb(230, 83, 60) ;
     color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.healthy-bg{
+    background:rgb(23, 23, 23);
+}
+
+
+.healthy{
+    margin: 50px 15%;
+    padding: 50px 0px;
+    
+}
+
+.healthy1{
+    display: flex;
+    text-align: center;
+    margin: 40px 0px;
+    align-items: center;
+    
+}
+
+.meal-image{
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 1px 2px 1px 2px #00471e,2px 1px 2px 2px #00471e;
+    
+}
+
+.healthy-title-main{
+    margin: 20px 20%;
+    font-size: 35px;
+    
+}
+.healthy-desc-main{
+    margin: 20px 20%;
+    font-size: 18px;
+    color: #989898;
+}
+
+#healthy{
+    color: #00a545;
+}
+
+.healthy-title-main:hover{
+    text-shadow:2px 3px 2px #00471e;
+    margin: 20px 20%;
+    
+}
+.healthy-desc-main:hover{
+    text-shadow:2px 3px 2px #00471e;
+    margin: 20px 20%;
+}
+
+
+.healthy2{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 30px;
+    text-align: center;
+    
+}
+
+
+.healthy-box{
+    background-color: rgb(200, 200, 200);
+    padding: 0px 0px 20px 0px;
+    color: black;
+    border-radius: 8px;
+}
+.healthy-box:hover{
+    box-shadow: 1px 2px 1px 2px rgb(88, 88, 88),2px 1px 2px 2px rgb(115, 115, 115);
+    background-color: rgb(200, 200, 200);
+    padding: 0px 0px 20px 0px;
+    color: black;
+    border-radius: 8px;
+}
+
+.healthy-image{
+    width: 100%;
+    height: 45%;
+    border-radius: 8px;
+}
+
+.healthy-title{
+    padding: 0px 30px;
+    margin: 20px 0px 0px 0px;
+}
+
+.healthy-desc{
+    padding: 0px 30px 0px 30px;
 }
 
 
@@ -413,16 +554,15 @@ main{
 .before-bmi-title{
     margin-left: 20%;
     padding:30px;
-    background-color: rgb(57, 57, 57);
-    border-radius: 8px;
+    
 
 }
 .before-title{
-    text-align: left/   ;
+    text-align: left  ;
     
 }
 .before-desc{
-
+    color: #989898;
 }
 
 
@@ -467,6 +607,7 @@ tr{
 }
 td{
     font-size: 14px;
+    color: #989898;
 }
 th{
     font-size: 16px;
@@ -511,7 +652,7 @@ th{
     height: 38px;
     border-radius: 8px;
     background-color: rgb(74, 74, 74);
-    color: rgb(255, 255, 255);
+    color: #989898;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -522,7 +663,7 @@ th{
     height: 38px;
     border-radius: 8px;
     background-color: rgb(74, 74, 74);
-    color: rgb(255, 255, 255);
+    color: #989898;
     padding-left: 20px;
     padding-right: 20px;
     
@@ -530,7 +671,7 @@ th{
 
 ::placeholder{
     padding-left: 20px;
-    color: rgb(255, 255, 255);
+    color: #989898;
 }
 
 .calculator-button{
@@ -539,6 +680,7 @@ th{
     background-color: rgb(230, 83, 60) ;
     color: white;
     margin-top: 15px;
+    border: none;
 }
 
 
@@ -556,9 +698,16 @@ th{
 
 .before-team{
     margin: 30px 15%;
-    text-align: center;
+    text-align: left;
 }
 
+.before-title{
+    margin: 0px;
+}
+
+.before-desc{
+    color: #989898;
+}
 
 
 
@@ -601,6 +750,7 @@ th{
 
 .card-sub-title{
     margin: 0px 10px;
+    color: #989898;
 }
 
 
@@ -661,7 +811,7 @@ footer{
 }
 .footer-desc{
     text-decoration: none;
-    color: rgb(213, 213, 213);
+    color: #989898;
     font-size: 14px;
     font-weight: 500;
 
@@ -669,7 +819,7 @@ footer{
 
 .footer-desc1{
     text-decoration: none;
-    color: rgb(213, 213, 213);
+    color: #989898;
     font-size: 12px;
     font-weight: 500;
 
@@ -688,7 +838,7 @@ footer{
 
 .copyright{
     text-align: center;
-    color: rgb(213, 213, 213);
+    color: #989898;
     font-size: 18px;
     font-weight: 500;
     padding: 10px 0px;
@@ -757,7 +907,7 @@ footer{
     
     
 
-    
+    .healthy1,
     .bmi,
     .run,
     .habit-box,
@@ -842,18 +992,56 @@ footer{
 
 
     .run{
+        margin: 60px 20px;
         gap: 50px;
+        padding: 0px;
     }
 
     .run-content{
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
+        width: 94%;
+    
+        padding: 20px 5%;
     }
     .run-image{
-        width: 100%;
+        width: 99%;
+        
         padding: 0px;
+        
     }
+
+
+
+
+    .healthy{
+        margin: 0px;
+    }
+
+    .meal-image{
+        width: 80%;
+    }
+
+    .healthy-title-main{
+        margin: 40px 10%;
+    }
+
+    .healthy-desc-main{
+        margin: 0px 10%;
+    }
+
+    .healthy2{
+        margin: 20px 10%;
+    }
+    .healthy-box{
+        
+    }
+
+
+
+
+
+
+
+
     table{
         padding-right: 0px;
     }
@@ -920,12 +1108,13 @@ footer{
 
 
 
-
+    .healthy2,
     .nav-ul-menu,
     .footer,
     .team{
         grid-template-columns: repeat(1,1fr);
     }
+
 
   
 
