@@ -40,6 +40,8 @@
 
 #span1{
     font-family: 'miama', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
     
 
     
@@ -199,7 +201,7 @@ header{
 
 .banner-btn2{
     margin: 0px 5px;
-    padding: 10px 25px;
+    padding: 12px 25px;
     border-radius: 20px;
     background-color: rgb(0, 0, 0) ;
     backdrop-filter: blur(20px);
@@ -224,7 +226,7 @@ header{
 
 #bannerbox1{
     width: 140px;
-    height: 100px;
+    height: 85px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -263,13 +265,16 @@ header{
 
 .banner-box-desc1{
     padding: 0px;
-    margin: 0px;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #989898;
 }
 
 .banner-box-desc{
     margin-top: 5px;
     margin-bottom: 0px ;
     font-size: 14px;
+    color: #989898;
 
 }
 
@@ -392,7 +397,7 @@ main{
     background-color: rgb(57, 57, 57);
     border-radius: 8px;
     padding: 20px;
-    gap: 200px;
+    gap: 40px;
     margin-top: 80px;
     margin-bottom: 60px;
 }
@@ -472,7 +477,7 @@ main{
 .meal-image{
     width: 50%;
     border-radius: 8px;
-    box-shadow: 1px 2px 1px 2px #00471e,2px 1px 2px 2px #00471e;
+    box-shadow: 1px 2px 1px 2px #562800,2px 1px 2px 2px rgb(230, 83, 60) ;
     
 }
 
@@ -488,16 +493,16 @@ main{
 }
 
 #healthy{
-    color: #00a545;
+    color:rgb(230, 83, 60) ;
 }
 
 .healthy-title-main:hover{
-    text-shadow:2px 3px 2px #00471e;
+    text-shadow:1px 1px 1px rgb(255, 202, 194) ;
     margin: 20px 20%;
     
 }
 .healthy-desc-main:hover{
-    text-shadow:2px 3px 2px #00471e;
+    text-shadow:1px 1px 1px rgb(255, 255, 255) ;
     margin: 20px 20%;
 }
 
@@ -512,10 +517,11 @@ main{
 
 
 .healthy-box{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(54, 54, 54);
     padding: 0px 0px 20px 0px;
     color: black;
     border-radius: 8px;
+    color: white;
 }
 .healthy-box:hover{
     box-shadow: 1px 2px 1px 2px rgb(88, 88, 88),2px 1px 2px 2px rgb(115, 115, 115);
@@ -534,10 +540,17 @@ main{
 .healthy-title{
     padding: 0px 30px;
     margin: 20px 0px 0px 0px;
+    font-size: 25px;
 }
 
 .healthy-desc{
     padding: 0px 30px 0px 30px;
+    font-size: 14px;
+    
+}
+.healthy-desc:hover{
+    padding: 0px 30px 0px 30px;
+   
 }
 
 
@@ -584,7 +597,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items:baseline;
-
+    gap: 20px;
     padding: 30px 0px 30px 0px;
     margin: 0px 15% ;
 }
@@ -683,7 +696,7 @@ th{
 }
 
 .calculator-button{
-    padding: 10px 25px;
+    padding: 10px 45px;
     border-radius: 20px;
     background-color: rgb(230, 83, 60) ;
     color: white;
@@ -847,7 +860,7 @@ footer{
 .copyright{
     text-align: center;
     color: #989898;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     padding: 10px 0px;
     margin: 0px 10%;
@@ -927,8 +940,9 @@ footer{
 
     .banner{
         justify-content: center;
-        margin-top: 0px;
+        margin:0px;
         padding-top: 0px;
+        padding-bottom: 20px;
         
     }
     
@@ -942,12 +956,19 @@ footer{
         margin-top: 10px;
         padding-top: 0px;
         font-size: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
         
+    }
+    .banner-desc{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 
     .banner-buttons{
-        gap: 26px;
+        gap: 15px;
+        margin-left: 60px;
 
     }
  
@@ -957,44 +978,56 @@ footer{
     }
 
     .banner-btn1{
-        padding: 0px 30px;
-        width: 180%;
-        margin-left: -40px;
-        height: 45px;
+        padding: 12px 30px;
+        width: 100%;
+        margin-left: 0px;
+        
 
     }
 
     .banner-btn2{
-        padding: 0px 30px;
-        width: 130%;
-        height: 47px;
-        margin-right: -20px;
+        padding: 12px 26px;
+        width: 100%;
+        
+        margin-right: 0px;
+        margin-left: px;
 
     }
     
 
     #bannerbox1{
         margin-left:55% ;
-        margin-top: -140% ;
+        margin-top: -100% ;
     }
 
     
 
     #bannerbox2{
-        margin-left: -10%;
-        margin-top: ;
+        margin-left: 5%;
+        margin-top: 40%;
         
     }
 
 
     .banner-image{
-        width: 100%;
+        width: 70%;
+        margin-left: 15%;
+        
+        
     }
 
     .banner-image-others{
         width: 100%;
+        
     }
 
+
+
+    .habit-box-image{
+        width: 280px;
+        height: 230px;
+        border-radius: 60%;
+    }
 
 
 
@@ -1010,6 +1043,10 @@ footer{
         width: 94%;
     
         padding: 20px 5%;
+    }
+
+    .run-desc{
+        margin-right: 60px;
     }
     .run-image{
         width: 99%;
@@ -1034,6 +1071,13 @@ footer{
     }
 
     .healthy-desc-main{
+        margin: 0px 10%;
+    }
+    .healthy-title-main:hover{
+        margin: 40px 10%;
+    }
+
+    .healthy-desc-main:hover{
         margin: 0px 10%;
     }
 
