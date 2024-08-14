@@ -249,7 +249,7 @@ header{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(5px);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.149);
 
     margin-left: -100px;
     margin-top: 140px;
@@ -404,7 +404,7 @@ main{
 
 .run-content{
     width: 140%;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 0px;
     padding-right: 40px;
 
@@ -413,21 +413,22 @@ main{
 .run-desc{
     color: #989898;
     font-size: 16px;
+    margin-right: 150px;
 }
 
 
 
 .run-image{
-    width: 140%;
+    width: 100%;
     height: fit-content;
     border-radius: 8px;
-    padding: 0px 200px 0px 0px;
+    padding: 0px 0px 0px 0px;
     
     
 }
 
 .run-button{
-    padding: 10px 25px;
+    padding: 12px 45px;
     border-radius: 20px;
     background-color: rgb(230, 83, 60) ;
     color: white;
@@ -598,7 +599,7 @@ main{
     justify-content: space-between;
     align-items:baseline;
     gap: 20px;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 60px 0px;
     margin: 0px 15% ;
 }
 
@@ -608,6 +609,11 @@ main{
 
 .chart-main-title,.calculator-input-title{
     font-size: 29px;
+}
+
+.chart-main-title{
+    margin: 30px 0px 30px 0px ;
+    text-align: left;
 }
 .bmi-table{
     border: 2px solid gray;
@@ -665,11 +671,12 @@ th{
     background-color: rgb(74, 74, 74);
     color: rgb(255, 255, 255);
     border: 0.1px solid gray;
+    border: none;
     
     
 }
 .input-content1{
-    width: 92%;
+    width: 93%;
     height: 38px;
     border-radius: 8px;
     background-color: rgb(74, 74, 74);
@@ -680,7 +687,7 @@ th{
 }
 .input-content2{
 
-    width: 96%;
+    width: 97%;
     height: 38px;
     border-radius: 8px;
     background-color: rgb(74, 74, 74);
@@ -702,6 +709,7 @@ th{
     color: white;
     margin-top: 15px;
     border: none;
+    margin-left: 0px;
 }
 
 
@@ -841,7 +849,7 @@ footer{
 .footer-desc1{
     text-decoration: none;
     color: #989898;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 
 }
@@ -862,8 +870,8 @@ footer{
     color: #989898;
     font-size: 14px;
     font-weight: 500;
-    padding: 10px 0px;
-    margin: 0px 10%;
+    padding: 30px 0px 20px 0px;
+    margin: 0px 0%;
 }
 
 
