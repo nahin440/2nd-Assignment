@@ -397,7 +397,7 @@ main{
     align-items: center;
     background-color: rgb(57, 57, 57);
     border-radius: 8px;
-    padding: 20px;
+    padding: 0px;
     gap: 40px;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -407,23 +407,31 @@ main{
     width: 140%;
     margin-left: 30px;
     margin-right: 0px;
-    padding-right: 40px;
+    padding-right: 80px 20px 80px 20px ;
 
 }
 
+.run-title{
+    margin: 10px 0px;
+    font-size: 45px;
+}
 .run-desc{
     color: #989898;
     font-size: 16px;
     margin-right: 150px;
 }
 
-
+.run-images{
+    max-width: fit-content;
+    margin-right: 20px;
+}
 
 .run-image{
-    width: 100%;
+    width: 85%;
     height: fit-content;
     border-radius: 8px;
     padding: 0px 5px 0px 0px;
+    margin: 40px;
     
     
 }
@@ -434,6 +442,7 @@ main{
     background-color: rgb(230, 83, 60) ;
     color: white;
     border: none;
+    margin: 10px 0px 10px 0px;
 }
 
 
