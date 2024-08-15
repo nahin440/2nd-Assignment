@@ -584,6 +584,158 @@ main{
 
 
 
+.training-main{
+    text-align: left;
+    margin: 100px 15% 0px 15%;
+}
+
+.training-main-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.training-main-desc{
+    font-size: 14px;
+    font-weight: 400;
+    color: #989898;
+}
+
+
+
+
+.training-div1{
+    display: flex;
+    margin-top: 60px;
+
+    
+}
+.training-div2{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+
+.images{
+    
+}
+
+
+
+.training-title{
+    transform: translateY(-60px) translateX(40px);
+    text-shadow: 2px 2px 2px red, 3px 3px 3px blue;
+}
+.image-div1{
+    width:70%;
+    height: 220px;
+    background: url(../images/exercise1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.overlay1{
+    background-color: #562800;
+}
+.image-div2{
+    width:140%;
+    height: 220px;
+    background: url(../images/exercise2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+    
+}
+.image-div3{
+    width:90%;
+    height: 220px;
+    background:  url(../images/exercise3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.image-div4{
+    width:120%;
+    height: 220px;
+    background: url(../images/exercise4.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.image-div5{
+    width:90%;
+    height: 220px;
+    background: url(../images/exercise5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.image-div6{
+    width:90%;
+    height: 220px;
+    background: url(../images/exercise6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.training-image1{
+    width: 100%;
+    height: 220px;
+    background: #0affbe54;
+}
+.training-image2{
+    width: 100%;
+    height: 220px;
+    background: #ff0a0a54;
+}
+.training-image3{
+    width: 100%;
+    height: 220px;
+}
+.training-image4{
+    width: 100%;
+    height: 220px;
+}
+.training-image5{
+    width: 100%;
+    height: 220px;
+    background: #0aff1e54;
+}
+.training-image6{
+    width: 100%;
+    height: 220px;
+    background: #430aff54;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
