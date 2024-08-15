@@ -1205,8 +1205,8 @@ footer{
 
     .habit-box-image{
         width: 280px;
-        height: 230px;
-        border-radius: 60%;
+        height: 250px;
+        border-radius: 50%;
     }
 
 
@@ -1268,6 +1268,42 @@ footer{
         
     }
 
+
+
+
+
+
+
+
+
+
+
+    .image-div3,.image-div6{
+        display: none;
+    }
+    .image-div1,.image-div2,.image-div4,.image-div5{
+        width: 100%;
+        height: 130px;
+        background-size: cover;
+    }
+
+    .training-image1,
+    .training-image2,
+    .training-image3,
+    .training-image4,
+    .training-image5,
+    .training-image6{
+        width: 100%;
+        height: 130px;
+    }
+
+    .image-div6{
+        margin: 0;
+    }
+
+    .training-title{
+        transform: translateY(-50px) translateX(10px);
+    }
 
 
 
